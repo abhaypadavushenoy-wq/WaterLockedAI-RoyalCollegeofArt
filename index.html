@@ -368,7 +368,8 @@
         }
         .input-bar.glass-mode #apiKey,
         .input-bar.glass-mode #userInput { color: rgba(255,255,255,0.9); }
-        .input-bar.glass-mode input::placeholder { color: rgba(255,255,255,0.4); }
+        .input-bar.glass-mode input::placeholder,
+        .input-bar.glass-mode textarea::placeholder { color: rgba(255,255,255,0.4); }
         [data-theme="light"] .input-bar.glass-mode #apiKey,
         [data-theme="light"] .input-bar.glass-mode #userInput {
             background: rgba(255,255,255,0.45);
@@ -381,7 +382,8 @@
                 inset 0 -1px 0 rgba(0,0,0,0.06),
                 0 4px 16px rgba(0,169,239,0.08);
         }
-        [data-theme="light"] .input-bar.glass-mode input::placeholder { color: rgba(58,58,58,0.55); }
+        [data-theme="light"] .input-bar.glass-mode input::placeholder,
+        [data-theme="light"] .input-bar.glass-mode textarea::placeholder { color: rgba(58,58,58,0.55); }
         button { padding: 10px 24px; border-radius: 10px; font-weight: 700; cursor: pointer; border: none; }
         .btn-send { background: var(--accent-blue); color: white; }
         .btn-circle { width: 40px; height: 40px; min-width: 40px; border-radius: 50%; background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; padding: 0; }
